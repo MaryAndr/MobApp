@@ -8,6 +8,7 @@
 Документация по API после запуска приложения доступна здесь: https://localhost:5000/swagger
 # Get starting
 -Клонировать репо
+
 -Переименовать контроллер в нужное название приложения
 
 -Если не нужна аутентификация, то удалить атрибут [Authorize] с контроллера
@@ -15,6 +16,7 @@
 -Если аутентификация нужна, то прописать валидные данные в Startup.cs и AppSettings.json
 
 -Разместить файлы для скачивания и ReleaseNotes.txt в соответствии со структурой каталогов /Content/{AppName}/{Platform}/{version}/{version.apk}
+
 # References
 Asp.Net Core 2.2
 IdentitServer4
